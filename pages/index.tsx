@@ -31,8 +31,8 @@ export default function Home() {
           />
         </div>
 
-				<p>I will introduce myself. My name is Jenson and I would like to show you how to play Roblox!</p>
-				<Link href="/instructions">Click here for the instructions pages</Link>
+				<p className={styles.description}>I will introduce myself. My name is Jenson and I would like to show you how to play Roblox!</p>
+				<Link className={styles.navigtationLink} href="/instructions">Click here for the instructions pages</Link>
 
 				
       </main>

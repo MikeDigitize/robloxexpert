@@ -1,6 +1,7 @@
 .title {
 	justify-content: center;
   align-items: center;
+	text-align: center;
 	background: var(--primary-glow);
 	color: white;
 	font-family: var(--font-mono);
@@ -33,13 +34,16 @@
   gap: 0.5rem;
 }
 
-.description p {
+.description, .navigtationLink {
   position: relative;
-  margin: 0;
+	font-family: var(--font-mono);
+  margin: 2rem auto 4rem;
   padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
+	text-align: center;
+	display: block;
+  /* background-color: rgba(var(--callout-rgb), 0.5);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius); */
 }
 
 .code {

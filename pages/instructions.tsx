@@ -31,8 +31,8 @@ export default function Instructions() {
         </div>
 
 				
-				<p>Instructions on how to play Roblox will go here!!</p>
-				<Link href="/">Click here for the home page</Link>
+				<p className={styles.description}>Instructions on how to play Roblox will go here!!</p>
+				<Link className={styles.navigtationLink}  href="/">Click here for the home page</Link>
 
       </main>
     </>
