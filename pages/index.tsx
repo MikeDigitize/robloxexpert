@@ -27,7 +27,7 @@ export default function Home() {
           />
         </div>
 
-				<h1 className={styles.title}>Website Under Development</h1>
+				<h1 className={styles.title}>Welcome to Roblox Expert!!</h1>
 
       </main>
     </>
