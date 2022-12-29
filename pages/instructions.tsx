@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Instructions() {
   return (
     <>
       <Head>
@@ -17,10 +17,9 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
 
-			<h1 className={styles.title}>Roblox Expert Home Page</h1>
+			<h1 className={styles.title}>Roblox Expert Instructions Page</h1>
         <div className={styles.center}>
 				
-
           <Image
             className={styles.logo}
             src="/roblox-expert-logo-sm.jpg"
@@ -31,10 +30,10 @@ export default function Home() {
           />
         </div>
 
-				<p>I will introduce myself. My name is Jenson and I would like to show you how to play Roblox!</p>
-				<Link href="/instructions">Click here for the instructions pages</Link>
-
 				
+				<p>Instructions on how to play Roblox will go here!!</p>
+				<Link href="/">Click here for the home page</Link>
+
       </main>
     </>
   )
