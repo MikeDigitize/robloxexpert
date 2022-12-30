@@ -17,22 +17,23 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
 
-			<h1 className={styles.title}>Roblox Expert Home Page</h1>
+			<h1 className={styles.title}>Welcome to...</h1>
         <div className={styles.center}>
-				
-
+			
           <Image
             className={styles.logo}
             src="/roblox-expert-logo-sm.jpg"
             alt="Roblox Expert Logo"
-            width={500}
-            height={500}
+            width={350}
+            height={350}
             priority
           />
         </div>
 
+				<h1 className={styles.title}>A Jenson Fisher website</h1>
+
 				<p className={styles.description}>I will introduce myself. My name is Jenson and I would like to show you how to play Roblox!</p>
-				<Link className={styles.navigtationLink} href="/instructions">Click here for the instructions pages</Link>
+				<Link className={styles.navigtationLink} href="/instructions">Click here for the instructions page {'>>'}</Link>
 
 				
       </main>

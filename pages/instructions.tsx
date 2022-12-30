@@ -20,19 +20,19 @@ export default function Instructions() {
 			<h1 className={styles.title}>Roblox Expert Instructions Page</h1>
         <div className={styles.center}>
 				
-          <Image
+					<Image
             className={styles.logo}
             src="/roblox-expert-logo-sm.jpg"
             alt="Roblox Expert Logo"
-            width={500}
-            height={500}
+            width={350}
+            height={350}
             priority
           />
         </div>
 
 				
 				<p className={styles.description}>Instructions on how to play Roblox will go here!!</p>
-				<Link className={styles.navigtationLink}  href="/">Click here for the home page</Link>
+				<Link className={styles.navigtationLink}  href="/">Click here for the home page {'>>'}</Link>
 
       </main>
     </>
